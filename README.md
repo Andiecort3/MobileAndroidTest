@@ -72,3 +72,9 @@
 	appPackage = <nombre del paquete de la app>
 5.- Clic en Start Session
 6.- Validar que se muestre el dispositivo inicialidado en la app previamente instalada
+
+- Ver reportes de Allure
+
+1.- Abrir un cmd en la ruta raiz del proyecto 
+2.- Ejecutar el comando: npm install -g allure-commandline --save -dev
+3.- Ejecutar el comando allure serve y esperar que se abra el reporte en el reporteador
