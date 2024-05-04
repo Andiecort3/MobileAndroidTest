@@ -1,0 +1,359 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-05-04T20:58:33.135Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11561000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "mappings.HomePage.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Add contact",
+        "description": "",
+        "id": "add-contact;add-contact",
+        "after": [
+          {
+            "result": {
+              "duration": 1124000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "mappings.HomePage.CloseSesion()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4020000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 4000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "mappings.AddContactPage.getingDrivers()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "we are inside the app",
+            "match": {
+              "location": "mappings.HomePage.weareInsideTheApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1036000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "mappings.AddContactPage.getingDrivers()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "click to add contact button",
+            "match": {
+              "location": "mappings.HomePage.clickToAddContactButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5119000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "mappings.AddContactPage.getingDrivers()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "add to contact name",
+            "match": {
+              "location": "mappings.AddContactPage.addToContactName()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1753000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "mappings.AddContactPage.getingDrivers()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "add to contact phone",
+            "match": {
+              "location": "mappings.AddContactPage.addToContactPhone()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5179000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "mappings.AddContactPage.getingDrivers()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "select option celular",
+            "match": {
+              "location": "mappings.AddContactPage.selectOptionCelular()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 174000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "mappings.AddContactPage.getingDrivers()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "add to contact email",
+            "match": {
+              "location": "mappings.AddContactPage.addToContactEmail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3954000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "mappings.AddContactPage.getingDrivers()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "select option work",
+            "match": {
+              "location": "mappings.AddContactPage.selectOptionWork()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 325000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "mappings.AddContactPage.getingDrivers()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "click to save",
+            "match": {
+              "location": "mappings.AddContactPage.clickToSave()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2985000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "mappings.AddContactPage.getingDrivers()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "the saved contact is displayed",
+            "match": {
+              "location": "mappings.HomePage.theSavedContactIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add contact",
+    "description": "",
+    "id": "add-contact",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/AddContact.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-05-04T20:59:10.719Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9280000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "mappings.HomePage.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Invisible Contacts",
+        "description": "",
+        "id": "invisible-contacts;invisible-contacts",
+        "after": [
+          {
+            "result": {
+              "duration": 883000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "mappings.HomePage.CloseSesion()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3969000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "mappings.AddContactPage.getingDrivers()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "we are inside the app",
+            "match": {
+              "location": "mappings.HomePage.weareInsideTheApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1072000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "mappings.AddContactPage.getingDrivers()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "click to invisible contacts option",
+            "match": {
+              "location": "mappings.HomePage.clickToInvisibleContactsOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1494000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "mappings.AddContactPage.getingDrivers()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "contacts are not seen",
+            "match": {
+              "location": "mappings.HomePage.contactsAreNotSeen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Invisible Contacts",
+    "description": "",
+    "id": "invisible-contacts",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/InvisibleContacts.feature",
+    "tags": []
+  }
+]
