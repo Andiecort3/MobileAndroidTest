@@ -100,4 +100,5 @@ Tambien contiene el instalador de Allure para el manejo de reportes.
 
 ## 
 **Autor: Andrea Gonzalez Cortes**
+**Tester Automation**
 ##
