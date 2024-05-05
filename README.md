@@ -1,13 +1,15 @@
-## Descripcion del Proyecto
+## Descripcion del Proyecto:
 Este proyecto esta construido con el patron de diseño POM y usando BDD con la utilizacion de Cucumber y su desarrollo de los casos de prueba con el lenguaje Gerkin; El lenguaje que programacion utilizado es Java con el motor de automatizacion Appium.
 
 Dentro de este proyecto encontraremos 2 casos de prueba el cual utilizamos como prueba la aplicacion de sample-apps que se encuentra alojada en la ruta src/java/resources
 
 - Nombres de los casos de prueba:
 1. Add Contact
-2. Show to Invisible Cocntacts
+2. Invisible Contacts
 
 Tambien contiene el instalador de Allure para el manejo de reportes.
+
+**Para la correcta ejecucion de los casos de prueba es necesario seguir los pasos en el orden que se encuentra en esta documentacion**
 
 ## Descarga de Herramientas:
 
@@ -19,7 +21,7 @@ Tambien contiene el instalador de Allure para el manejo de reportes.
 	- MAVEN_HOME <C:\Program Files\Maven\apache-maven-3.9.6\bin>
 	- ANDROID_HOME <C:\Users\"TU USUARIO"\AppData\Local\Android\Sdk\plataform-tools>
 5. Node JS 
-6. Ecplise IDE
+6. Ecplise IDE o el de tu preferencia
 7. Git
 8. Appium Inspector : <Appium-Inspector-2024.3.4-win-x64.exe>
 
@@ -40,7 +42,7 @@ Tambien contiene el instalador de Allure para el manejo de reportes.
 6. Ingresar Nombre del dispositivo 
 7. Clic en el icono de play del dispositivo a emular
 
-## Agregar un APK al Dispositivo Emulado:
+## Agregar un APK al Dispositivo Emulado (Esto solo en caso de no tener la ruta agregada en las capabilites del proyecto):
 
 1. Descargar el apk a probar de algun repositorio
 2. Identificar el archivo de la aplicacion (apk)
@@ -95,3 +97,7 @@ Tambien contiene el instalador de Allure para el manejo de reportes.
 1. Abrir un cmd en la ruta raiz del proyecto 
 2. Ejecutar el comando: npm install -g allure-commandline --save -dev
 3. Ejecutar el comando allure serve y esperar que se abra el reporte en el reporteador
+
+## 
+**Autor: Andrea Gonzalez Cortes**
+##
